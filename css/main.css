@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 
 .section-title {
@@ -25,7 +25,7 @@ body {
 
 .menu {
   position: fixed;
-  background-color: #FED100;
+  background-color: #fed100;
   height: 50px;
   width: 100%;
 }
@@ -82,7 +82,7 @@ body {
 
 .header {
   height: 900px;
-  background-color: #FED100;
+  background-color: #fed100;
   margin-bottom: 100px;
 }
 
@@ -111,8 +111,8 @@ body {
 .header .offer .offer-text .offer-text-button {
   width: 304px;
   height: 60px;
-  color: #FFF;
-  background-color: #FF352B;
+  color: #fff;
+  background-color: #ff352b;
   border: none;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
@@ -173,7 +173,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -213,7 +212,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -251,7 +249,7 @@ body {
 }
 
 .prices .price-list .price-list-item {
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   width: 400px;
   height: 500px;
   padding: 30px 30px 30px 30px;
@@ -286,7 +284,7 @@ body {
   font-weight: normal;
   width: 250px;
   height: 51px;
-  background-color: #FED100;
+  background-color: #fed100;
   border: none;
   outline: none;
   font-family: "Montserrat", sans-serif;
@@ -314,7 +312,7 @@ body {
   height: 50px;
   font-size: 20px;
   background-color: #fff;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   outline: none;
   margin-right: 20px;
   font-family: "Montserrat", sans-serif;
@@ -350,7 +348,7 @@ body {
   width: 250px;
   height: 50px;
   font-size: 20px;
-  background-color: #FED100;
+  background-color: #fed100;
   border: none;
   outline: none;
   font-family: "Montserrat", sans-serif;
@@ -440,7 +438,7 @@ body {
 .order .order-form .order-form-input {
   border: none;
   outline: none;
-  border-bottom: 2px solid #EBEBEB;
+  border-bottom: 2px solid #ebebeb;
   font-size: 20px;
 }
 
@@ -449,7 +447,7 @@ body {
   height: 50px;
   border: none;
   outline: none;
-  background-color: #FF352B;
+  background-color: #ff352b;
   color: #fff;
   font-size: 20px;
 }
@@ -804,6 +802,9 @@ body {
   .auto-park .car .car-image .car-image-img {
     max-width: 100%;
   }
+  .reviews {
+    display: none;
+  }
   .reviews .reviews-list .reviews-list-item {
     font-size: 15px;
   }
@@ -839,6 +840,398 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .container {
+    max-width: 400px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image {
+    display: none;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 650px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image {
+    display: none;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order {
+    margin-bottom: 100px;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .order .order-form {
+    display: block;
+  }
+  .order .order-form .order-form-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ebebeb;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+  .order .order-form .order-form-button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #ff352b;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .faq {
+    margin-bottom: 30px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 15px;
+    text-align-last: left;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 400px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .menu .menu-list {
+    display: none;
+  }
+  .header {
+    height: 650px;
+  }
+  .header .offer .offer-text {
+    margin-right: 100px;
+  }
+  .header .offer .offer-text .offer-text-title {
+    font-size: 25px;
+  }
+  .header .offer .offer-text .offer-text-subtitle {
+    font-size: 15px;
+  }
+  .header .offer .offer-text .offer-text-button {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-img {
+    margin-right: 20px;
+    width: 40px;
+  }
+  .header .offer .features .features-list .features-list-item .features-list-item-text {
+    font-size: 15px;
+  }
+  .header .offer .offer-image {
+    display: none;
+  }
+  .header .offer .offer-image .offer-image-img {
+    max-width: 100%;
+    border-radius: 100%;
+  }
+  .work-plan .top-steps .top-steps-list {
+    display: block;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .top-steps .top-steps-list .top-steps-list-item .top-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list {
+    display: block;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item {
+    margin: 0 auto;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-number {
+    font-size: 25px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-title {
+    font-size: 15px;
+  }
+  .work-plan .bottom-steps .bottom-steps-list .bottom-steps-list-item .bottom-steps-list-item-subtitle {
+    font-size: 15px;
+  }
+  .prices .price-list {
+    display: block;
+    margin: 0;
+  }
+  .prices .price-list .price-list-item {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .prices .price-list .price-list-item:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .prices .price-list .price-list-item .price-list-item-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-price {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .prices .price-list .price-list-item .price-list-item-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  .auto-park .type-of-auto .type-of-auto-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-text {
+    margin-right: 100px;
+    width: 650px;
+  }
+  .auto-park .car .car-text .car-text-title {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-list .car-text-list-item {
+    font-size: 15px;
+  }
+  .auto-park .car .car-text .car-text-button {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .auto-park .car .car-image {
+    display: none;
+  }
+  .auto-park .car .car-image .car-image-img {
+    max-width: 100%;
+  }
+  .reviews .reviews-list .reviews-list-item {
+    font-size: 15px;
+  }
+  .reviews .reviews-button {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .order {
+    margin-bottom: 100px;
+  }
+  .order .order-subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .order .order-form {
+    display: block;
+  }
+  .order .order-form .order-form-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ebebeb;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+  .order .order-form .order-form-button {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #ff352b;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .faq {
+    margin-bottom: 30px;
+  }
+  .footer .footer-container .faq .footer-logo {
+    font-size: 15px;
+  }
+  .footer .footer-container .faq .faq-text {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .footer .footer-container .footer-menu {
+    display: none;
+  }
+  .footer .footer-container .footer-social .footer-social-email {
+    font-size: 15px;
+    text-align-last: left;
+  }
+  .footer .footer-container .back-call {
+    display: none;
+  }
+}
+
 @media (max-width: 320px) {
   .container {
     max-width: none;
@@ -849,6 +1242,9 @@ body {
   .section-subtitle {
     font-size: 10px;
   }
+  .menu {
+    margin: 0;
+  }
   .menu .menu-list {
     display: none;
   }
@@ -856,10 +1252,11 @@ body {
     display: none;
   }
   .header {
-    height: 750px;
+    height: 400px;
   }
   .header .offer {
     display: block;
+    padding-top: 100px;
   }
   .header .offer .offer-text {
     margin-right: 100px;
@@ -871,8 +1268,8 @@ body {
     font-size: 10px;
   }
   .header .offer .offer-text .offer-text-button {
-    width: 250px;
-    height: 50px;
+    width: 100%;
+    height: 30px;
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
   }
@@ -925,8 +1322,8 @@ body {
   }
   .prices .price-list .price-list-item {
     margin: 0 auto;
-    width: 200px;
-    height: 220px;
+    width: 150px;
+    height: 200px;
     margin-bottom: 50px;
   }
   .prices .price-list .price-list-item:last-child {
@@ -1013,13 +1410,12 @@ body {
   }
   .order .order-form .order-form-input {
     font-size: 10px;
-    width: 200px;
     display: block;
     margin: 20px auto;
   }
   .order .order-form .order-form-button {
     font-size: 10px;
-    width: 200px;
+    height: 30px;
     display: block;
     margin: 0 auto;
   }
